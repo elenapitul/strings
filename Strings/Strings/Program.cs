@@ -9,18 +9,18 @@ namespace Strings
     {
         static void Main(string[] args)
         {
-            //RemoveN(); //1
-            //RemoveOdd(); //2
-            //UpLowCases(); //3
-            //ReverseFour(); //4
-            //UpperCase(); //5
-            //Newline(); //6
-            //FormattedOutput(); //7
-            //FormatPercentage(); //8
-            //ReverseString(); //9
-            //StripChar(); //10
-            //LowercaseN(); //11
-            //CapitalizeFirstLast(); //12
+            RemoveN(); //1
+            RemoveOdd(); //2
+            UpLowCases(); //3
+            ReverseFour(); //4
+            UpperCase(); //5
+            Newline(); //6
+            FormattedOutput(); //7
+            FormatPercentage(); //8
+            ReverseString(); //9
+            StripChar(); //10
+            LowercaseN(); //11
+            CapitalizeFirstLast(); //12
             SumDigitsString(); //13
         }
 
