@@ -135,7 +135,7 @@ namespace Strings
         //6. Write a method that removes a newline.
         public static void Newline()
         {
-            Console.WriteLine("Please write a string for exercise 4.");
+            Console.WriteLine("Please write a string for exercise 6.");
             string s1 = Console.ReadLine();
             string newline = Environment.NewLine;
             string s2 = Console.ReadLine();
