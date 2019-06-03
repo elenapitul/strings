@@ -6,8 +6,8 @@ namespace _6_ReplaceChar
     {
         static void Main(string[] args)
         {
-            //ChangeSymbol();
-            //SwapTwoChars();
+            ChangeSymbol();
+            SwapTwoChars();
             NotPoor();
 
         }

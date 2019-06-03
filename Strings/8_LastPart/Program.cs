@@ -6,10 +6,10 @@ namespace _8_LastPart
     {
         static void Main(string[] args)
         {
-            //PartBeforeChar();
-            //StartChar();
-            //CountingSubstrings();
-            //SwapCommaDot();
+            PartBeforeChar();
+            StartChar();
+            CountingSubstrings();
+            SwapCommaDot();
             RemoveSpaces();
         }
 
