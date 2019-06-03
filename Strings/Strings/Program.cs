@@ -196,7 +196,7 @@ namespace Strings
             string reverse = "";
             while (length >= 0)
             {
-                reverse = reverse + s[length];
+                reverse += + s[length];
                 length--;
             }
 

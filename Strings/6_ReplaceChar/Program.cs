@@ -15,7 +15,7 @@ namespace _6_ReplaceChar
         //all occurrences of its first char have been changed to "$", except the first char itself.
         public static void ChangeSymbol()
         {
-            Console.WriteLine("Please write a string.");
+            Console.WriteLine("Please write a string. ");
             string s = Console.ReadLine();
             while (string.IsNullOrWhiteSpace(s))
             {

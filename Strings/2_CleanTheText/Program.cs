@@ -13,7 +13,7 @@ namespace _2_CleanTheText
 
         public static void CleanText()
         {
-            Console.WriteLine("Please write a string with strange characters.");
+            Console.WriteLine("Please write a string with strange characters. ");
             string s = Console.ReadLine();
             if (string.IsNullOrEmpty(s))
             {

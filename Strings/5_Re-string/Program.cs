@@ -13,7 +13,7 @@ namespace _5_Re_string
 
         public static void ReString()
         {
-            Console.WriteLine("Please write a string.");
+            Console.WriteLine("Please write a string. ");
             string s = Console.ReadLine();
             while (string.IsNullOrWhiteSpace(s))
             {

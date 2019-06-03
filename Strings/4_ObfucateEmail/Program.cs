@@ -16,7 +16,7 @@ namespace _4_ObfucateEmail
 
         public static void ObfucateEmail()
         {
-            Console.WriteLine("Please write an email address");
+            Console.WriteLine("Please write an email address. ");
             string s = Console.ReadLine();
             while (string.IsNullOrWhiteSpace(s) || !s.Contains("@") || 
                 s.EndsWith("@") || s.StartsWith("@"))
