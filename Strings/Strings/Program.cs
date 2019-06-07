@@ -9,19 +9,19 @@ namespace Strings
     {
         static void Main(string[] args)
         {
-            RemoveN(); //1
-            RemoveOdd(); //2
-            UpLowCases(); //3
-            ReverseFour(); //4
-            UpperCase(); //5
-            Newline(); //6
-            FormattedOutput(); //7
-            FormatPercentage(); //8
-            ReverseString(); //9
+            //RemoveN(); //1
+            //RemoveOdd(); //2
+            //UpLowCases(); //3
+            //ReverseFour(); //4
+            //UpperCase(); //5
+            //Newline(); //6
+            //FormattedOutput(); //7
+            //FormatPercentage(); //8
+            //ReverseString(); //9
             StripChar(); //10
-            LowercaseN(); //11
-            CapitalizeFirstLast(); //12
-            SumDigitsString(); //13
+            //LowercaseN(); //11
+            //CapitalizeFirstLast(); //12
+            //SumDigitsString(); //13
         }
 
 
@@ -230,8 +230,8 @@ namespace Strings
             }
 
             string returnString = originalS;
-            char[] charAry = removeChars.ToCharArray();
-            foreach (char c in charAry)
+            char[] chars = removeChars.ToCharArray();
+            foreach (char c in chars)
             {
                 while (returnString.IndexOf(c) > -1)
                 {
