@@ -9,7 +9,7 @@ namespace _9_Palindrome
         static void Main(string[] args)
         {
             //Palindrome();
-            Palindrome_Var2();
+            //Palindrome_Var2();
             Palindrome_Var3();
 
         }
