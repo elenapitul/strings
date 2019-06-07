@@ -14,7 +14,7 @@ namespace _3_ingORly
 
         public static void IngLy()
         {
-            Console.WriteLine("Please write a string.");
+            Console.WriteLine("Please write a string. ");
             string s = Console.ReadLine();
             while (string.IsNullOrWhiteSpace(s))
             {

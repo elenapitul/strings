@@ -61,11 +61,11 @@ namespace _8_LastPart
 
             if (s[0] == input)
             {
-                Console.WriteLine($"Yes, it starts with {input}");
+                Console.WriteLine($"Yes, it starts with {input}.");
             }
             else
             {
-                Console.WriteLine($"No, it doesn't start with {input}");
+                Console.WriteLine($"No, it doesn't start with {input}.");
             }
 
         }

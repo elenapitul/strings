@@ -8,12 +8,13 @@ namespace _2_CleanTheText
         {
             //You will get a text from where you will need to clean the text because it contains a lot of strange characters that don't belong there
             //( ^ <, > &+ @%$)
+            //Input. : Hi^>there<<I’m+ telling%%you, you &need% to$ do& your $homeworks. @Hate ^me^ %now% and %thank% me &later.
             CleanText();
         }
 
         public static void CleanText()
         {
-            Console.WriteLine("Please write a string with strange characters.");
+            Console.WriteLine("Please write a string with strange characters. ");
             string s = Console.ReadLine();
             if (string.IsNullOrEmpty(s))
             {
